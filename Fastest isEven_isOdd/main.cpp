@@ -4,7 +4,7 @@ using namespace std;
 #include "../debug.h"
 
 //fastest way to check odd or even
-//also, added template to work with every integral types (int, short, long, char)
+//works with every integral types (int, short, long, char)
 template<class T>
 constexpr inline bool isEven(T a)
 {
