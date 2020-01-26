@@ -49,7 +49,7 @@ int main()
     if (FileContent content = FileContent(filename))
     {
         cout << "size of \"" << filename << "\" = " << content.size() << endl;
-        cout << "data of \"" << filename << "\" = " << content.data() << endl;
+        cout << "data of \"" << filename << "\":\n" << content.data() << endl;
     } else
         cout << "could not open file \"" << filename << endl;
 
