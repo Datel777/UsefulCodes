@@ -1,3 +1,3 @@
-*.pro.user
-build-*Desktop_Qt*
+*.user
+build-*
 Fastest isEven_isOdd/.vscode/*
